@@ -9,7 +9,6 @@
             android:id="@+id/ivAnimation"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:padding="8dp"
             android:scaleType="fitXY"
             android:layout_margin="8dp"/>
 </LinearLayout>

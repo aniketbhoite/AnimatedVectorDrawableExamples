@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "layers": {
+    "vectorLayer": {
+      "id": "11918",
+      "name": "vector",
+      "type": "vector",
+      "width": 24,
+      "height": 24,
+      "children": [
+        {
+          "id": "11919",
+          "name": "main_group",
+          "type": "group",
+          "children": [
+            {
+              "id": "11920",
+              "name": "highlighter",
+              "type": "path",
+              "pathData": "M 12 5.924 L 12 10.966",
+              "strokeColor": "#2196f3",
+              "strokeWidth": 40,
+              "trimPathStart": 1
+            }
+          ]
+        }
+      ]
+    },
+    "hiddenLayerIds": []
+  },
+  "timeline": {
+    "animation": {
+      "id": "11921",
+      "name": "anim",
+      "duration": 1000,
+      "blocks": [
+        {
+          "id": "11922",
+          "layerId": "11920",
+          "propertyName": "trimPathEnd",
+          "startTime": 547,
+          "endTime": 1000,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "number",
+          "fromValue": 1,
+          "toValue": 0
+        },
+        {
+          "id": "11923",
+          "layerId": "11920",
+          "propertyName": "trimPathStart",
+          "startTime": 29,
+          "endTime": 429,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "number",
+          "fromValue": 1,
+          "toValue": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "layers": {
+    "vectorLayer": {
+      "id": "31",
+      "name": "vector",
+      "type": "vector",
+      "width": 512,
+      "height": 512,
+      "children": [
+        {
+          "id": "32",
+          "name": "bell_group",
+          "type": "group",
+          "scaleX": 0.9,
+          "scaleY": 0.9,
+          "pivotX": 210,
+          "pivotY": 40,
+          "translateX": 10,
+          "translateY": 25,
+          "children": [
+            {
+              "id": "33",
+              "name": "bell_path",
+              "type": "path",
+              "pathData": "M 467.812 431.851 L 431.183 370.795 C 414.266 342.614 405.327 310.336 405.327 277.483 L 405.327 224 C 405.327 156.48 360.271 99.371 298.66 80.96 L 298.66 42.667 C 298.66 19.136 279.524 0 255.993 0 C 232.462 0 213.326 19.136 213.326 42.667 L 213.326 80.96 C 151.716 99.371 106.66 156.48 106.66 224 L 106.66 277.483 C 106.66 310.336 97.721 342.592 80.825 370.774 L 44.196 431.83 C 42.212 435.137 42.169 439.233 44.068 442.582 C 45.967 445.931 49.487 448.001 53.327 448.001 L 458.66 448.001 C 462.5 448.001 466.041 445.932 467.94 442.604 C 469.839 439.275 469.775 435.136 467.812 431.851 Z M 188.815 469.333 C 200.847 494.464 226.319 512 255.993 512 C 285.667 512 311.14 494.464 323.172 469.333 L 188.815 469.333 Z",
+              "fillColor": "#d80027",
+              "strokeWidth": 1
+            }
+          ]
+        }
+      ]
+    },
+    "hiddenLayerIds": []
+  },
+  "timeline": {
+    "animation": {
+      "id": "34",
+      "name": "anim",
+      "duration": 800,
+      "blocks": [
+        {
+          "id": "35",
+          "layerId": "32",
+          "propertyName": "rotation",
+          "startTime": 0,
+          "endTime": 200,
+          "interpolator": "LINEAR",
+          "type": "number",
+          "fromValue": 0,
+          "toValue": 12
+        },
+        {
+          "id": "36",
+          "layerId": "32",
+          "propertyName": "rotation",
+          "startTime": 200,
+          "endTime": 400,
+          "interpolator": "LINEAR",
+          "type": "number",
+          "fromValue": 12,
+          "toValue": 0
+        },
+        {
+          "id": "37",
+          "layerId": "32",
+          "propertyName": "rotation",
+          "startTime": 400,
+          "endTime": 600,
+          "interpolator": "LINEAR",
+          "type": "number",
+          "fromValue": 0,
+          "toValue": -12
+        },
+        {
+          "id": "38",
+          "layerId": "32",
+          "propertyName": "rotation",
+          "startTime": 600,
+          "endTime": 800,
+          "interpolator": "LINEAR",
+          "type": "number",
+          "fromValue": -12,
+          "toValue": 0
+        }
+      ]
+    }
+  }
+}

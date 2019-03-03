@@ -13,7 +13,9 @@ import kotlinx.android.synthetic.main.image_list_item.view.*
 class AvdAdapter(private val mContext: Context) : RecyclerView.Adapter<AvdAdapter.MyViewHolder>() {
 
     private val arrayList =
-        arrayListOf(R.drawable.bell_ring, R.drawable.bicycle, R.drawable.search_cross, R.drawable.heart_broke_fill)
+        arrayListOf(R.drawable.bell_ring, R.drawable.bicycle, R.drawable.search_cross, R.drawable.heart_broke_fill,
+            R.drawable.wallet_with_pop, R.drawable.my_wallet_coin_animation,
+            R.drawable.avd_pulse)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         return MyViewHolder(
